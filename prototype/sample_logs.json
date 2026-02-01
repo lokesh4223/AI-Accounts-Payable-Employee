@@ -1,0 +1,137 @@
+[
+  {
+    "timestamp": "2026-02-01T22:07:02.737396",
+    "agent": "validation_agent",
+    "action": "planning",
+    "reason": "Initializing invoice processing workflow",
+    "outcome": "workflow_started",
+    "status_before": "RECEIVED",
+    "status_after": null
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.737604",
+    "agent": "validation_agent",
+    "action": "validate_invoice",
+    "reason": "Checking invoice authenticity and compliance",
+    "outcome": "valid",
+    "status_before": "RECEIVED",
+    "status_after": "VALIDATED"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.738101",
+    "agent": "matching_agent",
+    "action": "check_po_match",
+    "reason": "No purchase order found",
+    "outcome": "missing_po",
+    "status_before": "VALIDATED",
+    "status_after": "MISSING_PO"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.738521",
+    "agent": "exception_agent",
+    "action": "handle_missing_po",
+    "reason": "Routing to procurement for PO verification",
+    "outcome": "escalated_to_procurement",
+    "status_before": "MISSING_PO",
+    "status_after": "ESCALATED"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.738820",
+    "agent": "validation_agent",
+    "action": "completion",
+    "reason": "Invoice processing completed",
+    "outcome": "final_status_escalated",
+    "status_before": "ESCALATED",
+    "status_after": null
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.740657",
+    "agent": "validation_agent",
+    "action": "planning",
+    "reason": "Initializing invoice processing workflow",
+    "outcome": "workflow_started",
+    "status_before": "RECEIVED",
+    "status_after": null
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.740767",
+    "agent": "validation_agent",
+    "action": "validate_invoice",
+    "reason": "Checking invoice authenticity and compliance",
+    "outcome": "valid",
+    "status_before": "RECEIVED",
+    "status_after": "VALIDATED"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.741131",
+    "agent": "matching_agent",
+    "action": "check_duplicates",
+    "reason": "Duplicate invoice detected",
+    "outcome": "duplicate_found",
+    "status_before": "VALIDATED",
+    "status_after": "DUPLICATE_DETECTED"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.741602",
+    "agent": "exception_agent",
+    "action": "handle_duplicate",
+    "reason": "Flagging duplicate and notifying AP team",
+    "outcome": "duplicate_flagged",
+    "status_before": "DUPLICATE_DETECTED",
+    "status_after": "ESCALATED"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.742209",
+    "agent": "validation_agent",
+    "action": "completion",
+    "reason": "Invoice processing completed",
+    "outcome": "final_status_escalated",
+    "status_before": "ESCALATED",
+    "status_after": null
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.743950",
+    "agent": "validation_agent",
+    "action": "planning",
+    "reason": "Initializing invoice processing workflow",
+    "outcome": "workflow_started",
+    "status_before": "RECEIVED",
+    "status_after": null
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.744193",
+    "agent": "validation_agent",
+    "action": "validate_invoice",
+    "reason": "Checking invoice authenticity and compliance",
+    "outcome": "valid",
+    "status_before": "RECEIVED",
+    "status_after": "VALIDATED"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.744699",
+    "agent": "matching_agent",
+    "action": "check_duplicates",
+    "reason": "Duplicate invoice detected",
+    "outcome": "duplicate_found",
+    "status_before": "VALIDATED",
+    "status_after": "DUPLICATE_DETECTED"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.744910",
+    "agent": "exception_agent",
+    "action": "handle_duplicate",
+    "reason": "Flagging duplicate and notifying AP team",
+    "outcome": "duplicate_flagged",
+    "status_before": "DUPLICATE_DETECTED",
+    "status_after": "ESCALATED"
+  },
+  {
+    "timestamp": "2026-02-01T22:07:02.745434",
+    "agent": "validation_agent",
+    "action": "completion",
+    "reason": "Invoice processing completed",
+    "outcome": "final_status_escalated",
+    "status_before": "ESCALATED",
+    "status_after": null
+  }
+]

@@ -1,0 +1,15 @@
+Sample Invoice Description:
+
+Vendor: Acme Corporation Ltd
+Invoice Number: ACME-2026-001
+Invoice Date: 2026-01-15
+Due Date: 2026-02-14
+Amount: $1,250.75
+Currency: USD
+PO Number: PO-2026-001
+Line Items:
+- Software License: 1 x $1,000.00
+- Setup Fee: 1 x $250.75
+Tax/VAT: $0.00 (Tax-exempt customer)
+Payment Terms: NET30
+Delivery Note: DN-2026-001

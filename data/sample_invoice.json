@@ -1,0 +1,23 @@
+{
+  "invoice_id": "INV-2026-001",
+  "vendor_name": "Acme Corporation Ltd",
+  "invoice_date": "2026-01-15",
+  "amount": 1250.75,
+  "currency": "GBP",
+  "po_number": null,
+  "vat_amount": 208.46,
+  "due_date": "2026-02-14",
+  "line_items": [
+    {
+      "description": "Monthly software subscription",
+      "quantity": 1,
+      "unit_price": 1042.29,
+      "total": 1042.29
+    }
+  ],
+  "vendor_details": {
+    "address": "123 Business Park, London SW1A 1AA",
+    "tax_id": "GB123456789",
+    "bank_account": "GB29NWBK60161331926819"
+  }
+}

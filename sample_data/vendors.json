@@ -1,0 +1,129 @@
+{
+  "vendors": [
+    {
+      "vendor_id": "VEND-ACME-001",
+      "vendor_name": "Acme Corporation Ltd",
+      "legal_name": "Acme Corporation Limited",
+      "tax_id": "GB123456789",
+      "vat_number": "GB123456789",
+      "status": "ACTIVE",
+      "risk_level": "LOW",
+      "bank_details": {
+        "account_number": "12345678",
+        "sort_code": "01-02-03",
+        "account_name": "Acme Corporation Ltd",
+        "iban": "GB29NWBK60161331926819",
+        "bic": "NWBKGB2L"
+      },
+      "contact_info": {
+        "primary_contact": "John Smith",
+        "email": "accounts@acme-corp.com",
+        "phone": "+44 20 1234 5678"
+      },
+      "payment_terms": "NET30",
+      "created_at": "2024-01-15",
+      "categories": ["software", "consulting"],
+      "preferred_payment_method": "BACS"
+    },
+    {
+      "vendor_id": "VEND-GTECH-002",
+      "vendor_name": "Global Tech Solutions",
+      "legal_name": "Global Tech Solutions Inc",
+      "tax_id": "US987654321",
+      "vat_number": "US987654321",
+      "status": "ACTIVE",
+      "risk_level": "MEDIUM",
+      "bank_details": {
+        "account_number": "98765432",
+        "sort_code": "04-05-06",
+        "account_name": "Global Tech Solutions Inc",
+        "iban": "US30BOFA28073100223456",
+        "bic": "BOFAUS6S"
+      },
+      "contact_info": {
+        "primary_contact": "Jane Doe",
+        "email": "billing@global-tech.com",
+        "phone": "+1 212 555 1234"
+      },
+      "payment_terms": "NET45",
+      "created_at": "2024-02-20",
+      "categories": ["technology", "support"],
+      "preferred_payment_method": "WIRE"
+    },
+    {
+      "vendor_id": "VEND-OFFICE-003",
+      "vendor_name": "Office Supplies Plus",
+      "legal_name": "Office Supplies Plus Ltd",
+      "tax_id": "GB456789123",
+      "vat_number": "GB456789123",
+      "status": "ACTIVE",
+      "risk_level": "LOW",
+      "bank_details": {
+        "account_number": "56781234",
+        "sort_code": "07-08-09",
+        "account_name": "Office Supplies Plus Ltd",
+        "iban": "GB12LOYD30949101234567",
+        "bic": "LOYDGB2L"
+      },
+      "contact_info": {
+        "primary_contact": "Mike Johnson",
+        "email": "orders@office-supplies.co.uk",
+        "phone": "+44 20 9876 5432"
+      },
+      "payment_terms": "NET30",
+      "created_at": "2024-03-10",
+      "categories": ["office supplies", "stationery"],
+      "preferred_payment_method": "CHAPS"
+    },
+    {
+      "vendor_id": "VEND-CONSULT-004",
+      "vendor_name": "Business Consulting Group",
+      "legal_name": "Business Consulting Group LLP",
+      "tax_id": "GB789123456",
+      "vat_number": "GB789123456",
+      "status": "ACTIVE",
+      "risk_level": "LOW",
+      "bank_details": {
+        "account_number": "90123456",
+        "sort_code": "10-11-12",
+        "account_name": "Business Consulting Group LLP",
+        "iban": "GB45MIDL40201512345678",
+        "bic": "MIDLGB22"
+      },
+      "contact_info": {
+        "primary_contact": "Sarah Williams",
+        "email": "info@business-consulting.co.uk",
+        "phone": "+44 20 1122 3344"
+      },
+      "payment_terms": "NET60",
+      "created_at": "2024-04-05",
+      "categories": ["consulting", "advisory"],
+      "preferred_payment_method": "BACS"
+    },
+    {
+      "vendor_id": "VEND-SOFTWARE-005",
+      "vendor_name": "Cloud Services Ltd",
+      "legal_name": "Cloud Services Limited",
+      "tax_id": "GB321654987",
+      "vat_number": "GB321654987",
+      "status": "ACTIVE",
+      "risk_level": "MEDIUM",
+      "bank_details": {
+        "account_number": "34567890",
+        "sort_code": "13-14-15",
+        "account_name": "Cloud Services Limited",
+        "iban": "GB78BARC20031456789012",
+        "bic": "BARCGB22"
+      },
+      "contact_info": {
+        "primary_contact": "David Brown",
+        "email": "support@cloud-services.com",
+        "phone": "+44 20 5566 7788"
+      },
+      "payment_terms": "NET30",
+      "created_at": "2024-05-12",
+      "categories": ["cloud services", "hosting", "saas"],
+      "preferred_payment_method": "SEPA"
+    }
+  ]
+}
