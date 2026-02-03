@@ -4,6 +4,56 @@
 
 ---
 
+## Automation & AI Evolution for Accounts Payable
+
+*Introducing Automation & Intelligent Automation with UiPath*
+
+This system demonstrates how UiPath's Intelligent Automation platform transforms traditional Accounts Payable workflows into fully automated, AI-enhanced processes. By integrating document processing, ERP data retrieval, and exception handling, organizations can eliminate manual bottlenecks and achieve faster, more accurate invoice-to-payment cycles.
+
+### Key Features
+
+- Automated invoice extraction using Intelligent Document Processing
+- Real-time comparison between invoice and purchase order data
+- Seamless ERP system integration
+- Exception handling via HTIL Action App or manual override
+- End-to-end automation from receipt to payment
+
+### Workflow Overview
+
+The automation journey includes:
+
+**Manual Process (Traditional):**
+Invoice Submission → Invoice Receipt → Process Invoice → Investigate Discrepancy → Request Additional Data → Final Check → Approve Invoice → Pay Invoice → Payment Received
+
+**Automated Process (With UiPath):**
+Supplier Email → Comms Mining → Intelligent Document Processing → Get PO Data → Compare Invoice & PO → **UiPath Replaces Happy Path** (or HTIL Action App) → Auto Approve → Process Payment → Receive Payment
+
+### Technologies & Components
+
+- **UiPath Orchestrate**: End-to-end business process management
+- **Intelligent Automation**: AI/ML for document extraction and anomaly detection
+- **HTIL Action App**: Human-in-the-loop exception handling
+- **ERP Integration**: Real-time purchase order data retrieval
+- **Supplier Communication**: Direct email invoice processing
+
+### Workflow Visualization
+
+![Automation & AI Evolution for Accounts Payable](Screenshot%202026-02-03%20202422.png)
+
+*Figure 1: Transition from manual to intelligent automation in Accounts Payable using UiPath. Shows key steps, exception handling, and supplier interactions.*
+
+### Additional Resources
+
+📄 [AI Accounts Payable.pdf](AI%20Accounts%20Payable.pdf) - Complete presentation on UiPath automation workflow
+
+![Invoice Automation Workflow](most-popular-ways-to-automate-accounts-payable.jpg)
+
+*Figure 2: Comprehensive invoice automation pipeline showing data ingestion, validation, matching, exception handling, and reporting.*
+
+---
+
+---
+
 ## Executive Summary
 
 The AI Accounts Payable Employee is a revolutionary autonomous system that transforms traditional accounts payable operations by eliminating manual intervention and enabling end-to-end invoice processing. Built on a multi-agent architecture, this system handles complex AP workflows including invoice capture, validation, matching, approvals, and payment preparation with minimal human oversight.
